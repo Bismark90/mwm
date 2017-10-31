@@ -30,7 +30,7 @@
 		        <forceRegenerate>true</forceRegenerate>
 		        <schemas>
 		            <schema> 
-		                <url>http://localhost:8443/serviceSNRAdmin/partidosService?wsdl</url>
+		                <url>https://localhost:8443/serviceSNRAdmin/partidosService?wsdl</url>
 		            </schema>
 		        </schemas>
 		    </configuration>
