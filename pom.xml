@@ -29,7 +29,7 @@
 		        <generatePackage>com.concretepage.wsdl</generatePackage>
 		        <forceRegenerate>true</forceRegenerate>
 		        <schemas>
-		            <schema> 
+		            <schema>
 		                <url>https://localhost:8443/serviceSNRAdmin/partidosService?wsdl</url>
 		            </schema>
 		        </schemas>
