@@ -15,9 +15,10 @@ public class ClientAppConfig {
 	@Bean
 	public StudentClient studentClient(Jaxb2Marshaller marshaller) {
 		StudentClient client = new StudentClient();
-		client.setDefaultUri("https://localhost:8443/serviceSNRAdmin/partidosService?wsdl");
+		client.setDefaultUri("http://localhost:8443/serviceSNRAdmin/partidosService?wsdl");
 		client.setMarshaller(marshaller);
 		client.setUnmarshaller(marshaller);
 		return client;
+		
 	}
 }
